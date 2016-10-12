@@ -1,11 +1,47 @@
 .bio {
 	background-color: lightblue;
+	color: white;
 } 
+
 h1 {
 	text-align: center;
-}
-h3 { 
-	font-family: verdana;
+	color: blue;
+	border: 5px dashed pink;
 }
 
-font-size: 20px
+h3 { 
+	font-family: verdana;
+	color: green;
+
+}
+
+
+ 
+
+.personal {
+	background-color: pink;
+	color: white;
+}
+
+.professional {
+	background-color: lightgreen;
+	color: white;
+}
+
+.quotes {
+	background-color: plum;
+	color: white;
+}
+
+.quotes__quotes--special {
+	background-color: plum;
+	color: black;
+}
+
+.quotes__author {
+	color: lime;
+}
+
+.pagesList__pagesItem--current {
+	color: red;
+}
