@@ -1,32 +1,51 @@
+<?php
+
+	$currentPage = "Goals";
+
+	function isCurrentPage ($pageName, $currentPage)  {
+		if ($pageName == $currentPage)  {
+		echo "pagesList__pagesItem--current";
+		}
+	}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Goals page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-	<h1>Goals</h1>
+<div class="main">
 
-	<h3>Personal goals</h3>
+	<h1 class="title">Goals</h1>
 
-	<p>My main priority right now is to acquire more skills and knowledge, which I enjoy using, and contribute more value.  Another vague goal of mine is to travel more.  I would like to go everywhere, but more realistically, I would like to get out to Colorado and a couple of places in Canada this year. </p>
+</div>
+
+	<h3 class="goalTitle">Personal goals</h3>
+
+	<div class="personal">My main priority right now is to acquire more skills and knowledge, which I enjoy using, and contribute more value.  Another vague goal of mine is to travel more.  I would like to go everywhere, but more realistically, I would like to get out to Colorado and a couple of places in Canada this year. </div>
 
 	
-	<h3>Professional goals</h3>
+	<h3 class="goalTitle">Professional goals</h3>
 
-	<p>Over the next year I would like to gain the development/programming/etc skills to be qualified to contribute to a business as an intern/junior developer/etc.  From there as I gain more real world experience, I will be better positioned to know what I am interested in, and where my strengths lie.  I also plan on moving to Omaha, for a change of scenery, and possibly to finish out a degree at a local college.</p>
+	<div class="professional">Over the next year I would like to gain the development/programming/etc skills to be qualified to contribute to a business as an intern/junior developer/etc.  From there as I gain more real world experience, I will be better positioned to know what I am interested in, and where my strengths lie.  I also plan on moving to Omaha, for a change of scenery, and possibly to finish out a degree at a local college.</div>
 
-	<h3>Pages</h3>
+	<h3 class= "pagesList">Pages</h3>
 
-	<p> <a href = "quotes.html">Home page </a> </p>
+	<p> <a href = "quotes.html" class = "pagesList__pagesItem">Home page </a> </p>
 
-	<p> <a href = "goals.html">Goals page </a> </p>
+	<p> <a href = "goals.html" class = "pagesList__pagesItem--current">Goals page </a> </p>
 
-	<p> <a href = "quotes.html">Quotes page</a> </p>
+	<p> <a href = "quotes.html" class = "pagesList__pagesItem">Quotes page</a> </p>
 
-	<h3>My profile</h3>
+	<h3 class="profileTitle">My profile</h3>
 
-	<p> <a href = "https://github.com/paulj2233"> GitHub Profile </a> </p>
+	<p> <a href = "https://github.com/paulj2233" class = "pagesList__pagesItem"> GitHub Profile </a> </p>
 
 </body>
 </html>

@@ -1,11 +1,79 @@
 .bio {
-	background-color: lightblue;
-} 
-h1 {
+	color: lightblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 	text-align: center;
-}
-h3 { 
-	font-family: verdana;
+    width: 450px;
+} 
+
+.title {
+	text-align: center;
+	color: lightgrey;
+
+	font-size: 35px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
 }
 
-font-size: 20px
+.profileTitle { 
+	font-family: verdana;
+	color: green;
+	font-weight: normal;
+}
+
+.pagesList {
+	font-family: verdana;
+	color: orange;
+	font-weight: normal;
+}
+ 
+
+.personal {
+	
+	color: pink;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.professional {
+	
+	color: lightgreen;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+	
+
+.quotes {
+	color: plum;
+}
+
+.quotes__quotes--special {
+	background-color: plum;
+	color: black;
+}
+
+.quotes__author {
+	color: lime;
+}
+
+.pagesList__pagesItem--current {
+	color: red;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.goalTitle {
+	margin-left: 100px;
+	margin-right: 100px;
+}

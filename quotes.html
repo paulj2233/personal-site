@@ -1,33 +1,53 @@
+<?php
+
+	$currentPage = "Quotes";
+
+	function isCurrentPage ($pageName, $currentPage)  {
+		if ($pageName == $currentPage)  {
+		echo "pagesList__pagesItem--current";
+		}
+	}
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Quotes page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<h1>Some great quotes about technology</h1>
+<div class="main">
 
-	<p>"Computers are incredibly fast, accurate and stupid; humans are incredibly slow, inaccurate and brilliant; together they are powerful beyond imagination." -Leo Cherne</p>
+<h1 class=title>Some great quotes about technology</h1>
 
-	<p>"Any sufficiently advanced technology is indistinguishable from magic" -Arthur C. Clarke</p>
+</div>
 
-	<p>"The computer programmer is a creator of universes for which he alone is responsible.  Universes of virtually unlimited complexity can be created in the form of computer programs"  -Joseph Weizenbaum</p>
+	<p class=quotes>"Computers are incredibly fast, accurate and stupid; humans are incredibly slow, inaccurate and brilliant; together they are powerful beyond imagination." <div class=quotes__author>-Leo Cherne</div></p>
 
-	<p>"Play is the highest form of research" -Albert Einstein</p>
+	<p class=quotes__quotes--special>"Any sufficiently advanced technology is indistinguishable from magic" <div class=quotes__author>-Arthur C. Clarke</div></p>
 
-	<p>"The art challenges the technology and the technology inspires the art." -John Lasseter </p>
+	<p class=quotes>"The computer programmer is a creator of universes for which he alone is responsible.  Universes of virtually unlimited complexity can be created in the form of computer programs" <div class=quotes__author> -Joseph Weizenbaum</div></p>
 
-	<h3>Pages</h3>
+	<p class=quotes>"Play is the highest form of research"<div class=quotes__author> -Albert Einstein</div></p>
 
-	<p> <a href = "index.html">Home page </a> </p>
+	<p class=quotes>"The art challenges the technology and the technology inspires the art." <div class=quotes__author>-John Lasseter </div></p>
 
-	<p> <a href = "goals.html">Goals page </a> </p>
 
-	<p> <a href = "quotes.html">Quotes page</a> </p>
 
-	<h3>My profile</h3>
+	<h3 class= "pagesList">Pages</h3>
 
-	<p> <a href = "https://github.com/paulj2233"> GitHub Profile </a> </p>
+	<p> <a href = "quotes.html" class = "pagesList__pagesItem">Home page </a> </p>
+
+	<p> <a href = "goals.html" class = "pagesList__pagesItem">Goals page </a> </p>
+
+	<p> <a href = "quotes.html" class = "pagesList__pagesItem--current">Quotes page</a> </p>
+
+	<h3 class=profileTitle>My profile</h3>
+
+	<p> <a href = "https://github.com/paulj2233" class = "pagesList__pagesItem"> GitHub Profile </a> </p>
 
 </body>
 </html>
