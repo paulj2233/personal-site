@@ -77,3 +77,19 @@
 	margin-left: 100px;
 	margin-right: 100px;
 }
+
+h1 {
+	text-align: center;
+	color: blue;
+	border: 5px dashed pink;
+}
+
+h3 { 
+	font-family: verdana;
+	color: green;
+
+}
+
+
+ 
+
